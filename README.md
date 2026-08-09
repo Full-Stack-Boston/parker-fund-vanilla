@@ -4,6 +4,7 @@ Static Knox layout alternate for [revparkermemorialfund.org](https://revparkerme
 
 - **Live / indexed site:** apex + `www` on Firebase Hosting (not this repo)
 - **This repo:** scrubbed public alternate for `vanilla.revparkermemorialfund.org` (`noindex`, banner, placeholder Firebase, application widgets disabled)
+- **GitHub twins:** primary `jonaldoalix/parker-fund-vanilla` · quiet twin `Full-Stack-Boston/parker-fund-vanilla`
 
 ```bash
 npm ci
