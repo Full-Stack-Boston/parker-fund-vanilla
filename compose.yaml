@@ -1,0 +1,9 @@
+services:
+  parker-vanilla:
+    container_name: parker-vanilla
+    build: .
+    image: parker-vanilla:local
+    restart: unless-stopped
+    ports:
+      # fsb-03 Tailscale bind (see nathan docs/PORTS.md)
+      - "100.64.0.7:8099:80"
