@@ -15,10 +15,11 @@ export default defineConfig({
         "js/particle-config.js",
       ],
       thresholds: {
-        statements: 80,
-        branches: 80,
-        functions: 80,
-        lines: 80,
+        // Suite is at 100%; CI floor 95% so coverage cannot silently erode.
+        statements: 95,
+        branches: 95,
+        functions: 95,
+        lines: 95,
       },
     },
   },
