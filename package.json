@@ -19,5 +19,11 @@
     "oxlint": "^1.71.0",
     "source-map-js": "^1.2.2",
     "vitest": "^4.1.12"
+  },
+  "dependencies": {
+    "undici": "^8.12.2"
+  },
+  "overrides": {
+    "undici": "^8.12.2"
   }
 }
